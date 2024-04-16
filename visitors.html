@@ -8,12 +8,14 @@
     <style type="text/css">
         #t1,
         div {
-            background-color: orange;
+            background-color: #ffd400;
             background-position: center;
             border: 1px solid white;
             border-radius: 8px;
-            width: 900px;
-             }
+            width: 1200px;
+
+            margin: 0px auto 0px auto;
+        }
     </style>
     <script>
         let cnt = 1;
@@ -91,9 +93,14 @@
 </head>
 
 <body>
-    <h3>방명록</h3>
     <form name="f">
+
         <table id="t1">
+            <tr>
+                <th>
+                    <h3>방명록</h3>
+                </th>
+            </tr>
             <tr>
                 <th>작성자</th>
                 <td><input type="text" name="writer" id="writer"></td>
